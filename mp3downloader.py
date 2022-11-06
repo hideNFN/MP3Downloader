@@ -45,4 +45,3 @@ def mp3dwn():
         except:
             print("Processing error.")
 mp3dwn()
-#pyinstaller mp3downloader.py -F
