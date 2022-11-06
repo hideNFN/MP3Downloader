@@ -3,6 +3,6 @@
 
 ### Sources:
 
-⋅⋅* [FFmpeg website](https://github.com/BtbN/FFmpeg-Builds)
+[FFmpeg website](https://github.com/BtbN/FFmpeg-Builds)
 
-⋅⋅* [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+[yt-dlp](https://github.com/yt-dlp/yt-dlp)
