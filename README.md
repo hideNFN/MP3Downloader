@@ -6,7 +6,7 @@ This tool works with a multitude amount of websites, you just have to place the 
 Playlists are detected automatically on websites such as YouTube, Bandcamp, etc. and the program will download the audio files one after another.
 ### Build
 
-Use the `python freeze.py` command.
+Use the `python freeze.py` command after you cd into the 'master' folder.
 
 ### Sources:
 
