@@ -2,6 +2,10 @@
 .backup/
 backup/
 
+# Data folder that creates after startup
+.data/
+.data/.ffmpeg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
