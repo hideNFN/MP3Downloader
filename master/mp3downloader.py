@@ -5,8 +5,8 @@ import os
 def mp3dwn():
     print("MP3 Downloader v1.1.0 by hideNFN\n")
 
-    foldercurent = os.getcwd()
-    datafolder = foldercurent + "\\.data"
+    currentfolder = os.getcwd()
+    datafolder = currentfolder + "\\.data"
     folderffmpeg = datafolder + "\\.ffmpeg"
     ffmpegcheck = folderffmpeg + "\\ffmpeg.exe"
     ffprobecheck = folderffmpeg + "\\ffprobe.exe"
