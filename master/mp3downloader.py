@@ -1,6 +1,8 @@
 import yt_dlp
 import os
 
+print("\nMP3 Downloader v1.1.0 by hideNFN\n")
+
 currentfolder = os.getcwd()
 datafolder = currentfolder + "\\.data"
 ffmpegfolder = datafolder + "\\.ffmpeg"
@@ -23,8 +25,6 @@ else:
 os.chdir(datafolder)
 
 def mp3dwn():
-    print("\nMP3 Downloader v1.1.0 by hideNFN\n")
-
     while True:
         print("\nPaste the URL of the media you would like to download in a mp3 format:\n")
 
