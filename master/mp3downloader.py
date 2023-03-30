@@ -1,14 +1,14 @@
 import yt_dlp
 import os
 
+currentfolder = os.getcwd()
+datafolder = currentfolder + "\\.data"
+ffmpegfolder = datafolder + "\\.ffmpeg"
+ffmpegcheck = ffmpegfolder + "\\ffmpeg.exe"
+ffprobecheck = ffmpegfolder + "\\ffprobe.exe"
+
 def mp3dwn():
     print("MP3 Downloader v1.1.0 by hideNFN\n")
-
-    currentfolder = os.getcwd()
-    datafolder = currentfolder + "\\.data"
-    ffmpegfolder = datafolder + "\\.ffmpeg"
-    ffmpegcheck = ffmpegfolder + "\\ffmpeg.exe"
-    ffprobecheck = ffmpegfolder + "\\ffprobe.exe"
 
     if os.path.exists(datafolder) is False or os.path.exists(ffmpegfolder) is False:
         print("\nCreating necessary folders...")
