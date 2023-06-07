@@ -2,7 +2,7 @@
 ### This is a simple terminal MP3 Downloader solution that is based on the `yt-dlp` repository and has a freeze.py file with `py2exe` build instructions. The program creates all the needed files but you still need to download FFmpeg for everything to work.
 
 ### Usage
-This tool works with a multitude amount of websites, you just have to place the link of the video/audio file and it downloads it.
+This tool works with a multitude amount of websites, you just have to place the link of the video/audio file and it downloads it. The script uses mp3 by default for compatibility purposes but it can be easily switched by changing the `"preferredcodec": "mp3"` line and putting whatever codec you would like in place of "mp3".
 Playlists are detected automatically on websites such as YouTube, Bandcamp, etc. and the program will download the audio files one after another.
 ### Build
 
